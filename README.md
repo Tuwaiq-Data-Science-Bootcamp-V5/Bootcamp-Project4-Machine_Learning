@@ -21,6 +21,6 @@ The dataset used for this project comprises 900 samples and 35 features sourced 
 
 ## Conclusion and Recommendations
 The RF model performed remarkably well with an accuracy of 0.89 in classifying date fruits.
-Other models like DT also demonstrated strong performances, achieving accuracY of 0.81.
+Other models like DT also demonstrated strong performances, achieving accuracy of 0.81.
 Considering the RF's high accuracy, it is recommended for use in date fruit classification tasks.
 Further fine-tuning and optimization of the RF model might lead to even better results for this classification problem.

@@ -10,11 +10,6 @@
 
 A stroke occurs when the blood supply to the brain is disrupted, leading to damage in brain cells. It can manifest suddenly, causing varying degrees of impairment in movement, speech, or cognitive function. Immediate medical attention is crucial to minimize long-term effects and enhance recovery.
 
-Therefore, in this study our objectives: 
-- Find the Population of Saudi Arabia 
-- Find the use of public transportation in KSA
-- Find the Cars used in Saudi Arabia by Volume and other prameters 
-- Do a comparison between KSA and NY
 
 ## Dataset Overview:
 1. [Stroke Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)

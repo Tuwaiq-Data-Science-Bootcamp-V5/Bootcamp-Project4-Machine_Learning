@@ -1,36 +1,28 @@
-# Bootcamp-Project4-Machine_Learning
+# Date Fruit Classification Project Report
+## Team Members
+Faisal Alotaibi 
+Yasser AlMubaddil
+Hesham Alsadan
 
-Based on what you’ve learned until now, use NumPy, pandas, matplotlib, seaborn, and scikit-learn to create a project of your choosing. 
+## Introduction
+This project aimed to classify different types of date fruits using machine learning techniques. The goal was to build models capable of accurately distinguishing between various date fruit categories based on specific features.
 
-This project must at least satisfy the following minimum requirements:
+## Dataset Overview and Source
+The dataset used for this project comprises 900 samples and 35 features sourced from Kaggle.
 
-- Choose a public dataset that needs to clean and preprocess.
-- EDA
-    - Apply the essential EDA steps: head, shape, info, describe, and missing values
-    - Display different charts that give an overview of your data.
-- Use three splitting methods (train-test split, cross-validation split and GridSearchCV).
-- Choose five proper ML Algorithms.
-- Report appropriate evaluation metrics for each model.
-- Create a chart that compares the final results of your selected models.
-- Write a final conclusion and recommendations (your interpretation of the results).
-- Report your final conclusion and findings in one page (readme markdown file).
-    - Team members.
-    - Introduction (problem or your goal).
-    - Dataset Overview and Source.
-    - A table represents the final results of ML models.
-- [Nice to have - Optional] Create an interactive dashboard.
+## Final Results of ML Models
 
-- Due Date: Sun, 26 Nov, at 3:00 p.m.
-- The Final presentation will be on Sunday (10 min for each group).
-Final Deliverables:
-- Notebook file(.ipynb).
-- Dataset file.
-- README.md file.
+| Model               | Best Parameters                    | Best Accuracy |
+|---------------------|------------------------------------|---------------|
+| Random Forest       | {'max_depth': None, 'n_estimators': 200} | 89.8%   |
+| Decision Tree       | {'max_depth': None}                | 81.9%         |
+| k-NN                | {'n_neighbors': 5}                 | 67.5%         |
+| Logistic Regression | {'C': 0.1}                         | 56.9%         |
+| SVM                 | {'C': 0.1, 'kernel': 'rbf'}        | 56.7%         |
 
 
-- Due Date: Sat, 11 Feb, at 11:45 p.m.
-- The Final presentation will be on Sunday (10 min for each group).
-Final Deliverables:
-- Notebook file(.ipynb).
-- Dataset file.
-- README.md file.
+## Conclusion and Recommendations
+The RF model performed remarkably well with an accuracy of 0.89 in classifying date fruits.
+Other models like DT also demonstrated strong performances, achieving accuracy of 0.81.
+Considering the RF's high accuracy, it is recommended for use in date fruit classification tasks.
+Further fine-tuning and optimization of the RF model might lead to even better results for this classification problem.

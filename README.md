@@ -36,7 +36,7 @@ Before performing the prediction task, the dataset underwent several preprocessi
 
 The preprocessed dataset was used to train and evaluate several supervised learning algorithms for predicting sleep health and lifestyle factors. The following algorithms were employed:
 
-1. Linear Regression: A linear model used to predict continuous sleep-related and lifestyle factors.
+1. logistic Regression: A linear model used to predict sleep-related and lifestyle factors.
 2. Decision Tree: A tree-based model that splits the data based on different conditions to make predictions.
 3. Random Forest: An ensemble of decision trees that provides improved prediction accuracy.
 4. Support Vector Machines (SVM): A model that separates data points by maximizing the margin between different classes.
@@ -50,7 +50,7 @@ The performance of each supervised learning algorithm on the sleep health and li
 
 | Algorithm          | Accuracy  | precision  | recall   | F1-score |
 |--------------------|-----------|------------|----------|----------|
-| Linear Regression  | 0.69      | 0.69       | 0.68     | 0.67     |
+| logistic Regression| 0.69      | 0.69       | 0.68     | 0.67     |
 | Decision Tree      | 0.95      | 0.90       | 0.90     | 0.90     |
 | Random Forest      | 0.95      | 0.92       | 0.92     | 0.91     |
 | SVM                | 0.85      | 0.69       | 0.69     | 0.67     |
